@@ -24,16 +24,22 @@ body{
 .img{
     padding-top: 16px;
     justify-content: center;
-    
 }
+
 
 img{
     width: 288px;
     height: 288px;
     border-radius: 10px;
 }
+.text{
+    width: 288px;
+    height: 129px;
+    
+}
 
-#text-improve{
+.text >h1{
+    box-sizing: border-box;
 font-family: 'Outfit', sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -41,9 +47,9 @@ font-size: 22px;
 line-height: 28px;
 text-align: center;
 color: #1F314F;
-margin-top: 24px;
+/* margin-top: 24px; */
 }
-#text-description{
+.text >h2{
 font-family: 'Outfit', sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -52,6 +58,6 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.1875px;
 color: #7D889E;
-margin-top: 16px;
+/* margin-top: 16px; */
 }
 
